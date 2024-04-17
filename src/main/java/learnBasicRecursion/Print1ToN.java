@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class PrintNtimes {
+public class Print1ToN {
     public static void main(String[] args) {
         Arrays.stream(printNos(5)).forEach(System.out::print);
         Arrays.stream(printNos(2)).forEach(System.out::print);
