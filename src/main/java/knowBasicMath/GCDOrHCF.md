@@ -4,7 +4,7 @@ You are given two integers 'n', and 'm'.
 
 
 
-Calculate 'gcd(n,m)', without using library functions.
+Calculate 'gcd(n,m)', **without using library functions.**
 
 **Note:**
 The greatest common divisor (gcd) of two numbers 'n' and 'm' is the largest positive number that divides both 'n' and 'm' without leaving a remainder.
@@ -41,7 +41,7 @@ gcd(6,9) is 3, as 3 is the largest positive integer that divides both 6 and 9.
 1
 
 
-**Expected Time Complexity:**
+Expected Time Complexity:
 
 Try to solve this in O(log(n))
 
