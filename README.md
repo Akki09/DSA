@@ -8,13 +8,14 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       3. Check Palindrome
       4. GCD Or HCF
       5. Armstrong Numbers
-      6. Print all Divisors
+      6. Print all Divisors (38 XP :( )
       7. Check for Prime
       
    2. **Learn Basic Recursion**
       1. Understand recursion by print something N times
       2. Print name N times using recursion
       3. Print N to 1 using recursion
+      4. Sum Of First N Numbers (39 XP :( )
       
    3. **Learn Basic Hashing**
    
