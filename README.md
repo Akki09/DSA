@@ -14,6 +14,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
    2. **Learn Basic Recursion**
       1. Understand recursion by print something N times
       2. Print name N times using recursion
+      3. Print N to 1 using recursion
       
    3. **Learn Basic Hashing**
    
