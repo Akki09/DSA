@@ -11,4 +11,5 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       6. Print all Divisors
       7. Check for Prime
    2. Learn Basic Recursion
+      1. Understand recursion by print something N times
    3. Learn Basic Hashing
