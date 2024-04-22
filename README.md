@@ -16,8 +16,14 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       2. Print name N times using recursion
       3. Print N to 1 using recursion
       4. Sum Of First N Numbers (39 XP :( )
+      5. Factorial Numbers Not Greater Than N to copy
+      6. Pending to copy
+      7. Pending to copy
+      8. Pending to copy
       
    3. **Learn Basic Hashing**
+      1. Counting frequencies of array elements
+      2. 
    
       
 
