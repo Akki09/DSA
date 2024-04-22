@@ -23,7 +23,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       
    3. **Learn Basic Hashing**
       1. Counting frequencies of array elements
-      2. 
+      2. Find the highest/lowest frequency element
    
       
 
