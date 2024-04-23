@@ -24,6 +24,14 @@ This Repository I am creating to Learn and Practice the DSA algorithms
    3. **Learn Basic Hashing**
       1. Counting frequencies of array elements
       2. Find the highest/lowest frequency element
+      
+
+2. **Learn Important Sorting Techniques**
+   1. Selection Sort
+   
+
+
+3. **Solve Problems on Arrays[Easy -> Medium -> Hard]**
    
       
 
