@@ -30,6 +30,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
    1. Selection Sort
    2. Bubble Sort
    3. Insertion Sort
+   4. Merge Sort
 
 
 3. **Solve Problems on Arrays[Easy -> Medium -> Hard]**
