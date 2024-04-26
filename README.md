@@ -35,6 +35,8 @@ This Repository I am creating to Learn and Practice the DSA algorithms
 
 
 3. **Solve Problems on Arrays[Easy -> Medium -> Hard]**
+   1. **EASY**
+      1. Largest Element in an Array
    
       
 
