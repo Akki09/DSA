@@ -38,6 +38,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
    1. **EASY**
       1. Largest Element in an Array
       2. Find 2nd Largest and 2nd Smallest without Sorting
+      3. Check If Array is sorted or not
    
       
 
