@@ -44,6 +44,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       6. Rotate Array by D place
       7. Move 0 to end
       8. Linear Search
+      9. Find the Union
       
 
 
