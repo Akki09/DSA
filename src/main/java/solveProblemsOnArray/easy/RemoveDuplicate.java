@@ -7,14 +7,26 @@ public class RemoveDuplicate {
         System.out.println(removeDuplicates(input, input.length));
     }
 
+//    public static int removeDuplicates(int[] arr, int n) {
+//        // Write your code here.
+//        int count = 1;
+//        for (int i = 0; i <= n - 2; i++) {
+//            if (arr[i] < arr[i + 1]) {
+//                count++;
+//            }
+//        }
+//        return count;
+//    }
+
     public static int removeDuplicates(int[] arr, int n) {
         // Write your code here.
-        int count = 1;
-        for (int i = 0; i <= n - 2; i++) {
-            if (arr[i] < arr[i + 1]) {
-                count++;
+        int i = 0;
+        for (int j = 1; j < n; j++) {
+            if (arr[j] != arr[i]) {
+                i++;
+                arr[i] = arr[j];
             }
         }
-        return count;
+        return i + 1;
     }
 }
