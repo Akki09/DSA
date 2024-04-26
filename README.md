@@ -47,6 +47,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       9. Find the Union
       10. Find missing number in an array
       11. Maximum Consecutive Ones
+      12. Find the number that appears once, and other numbers twice.
       
 
 
