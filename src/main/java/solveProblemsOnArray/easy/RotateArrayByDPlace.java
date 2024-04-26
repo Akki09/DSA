@@ -13,7 +13,6 @@ public class RotateArrayByDPlace {
         input.add(5);
         input.add(6);
         input.add(7);
-
         ArrayList<Integer> output = rotateArray(input,4);
         output.forEach(System.out::print);
 
@@ -21,7 +20,11 @@ public class RotateArrayByDPlace {
 
     public static ArrayList<Integer> rotateArray(ArrayList<Integer> arr, int k) {
         // Write your code here.
-        int startIndex = arr.size() - k;
+        int noOfRotation = k% arr.size();
+        if(noOfRotation == 0){
+            return arr;
+        }
+        int startIndex = arr.size() - noOfRotation;
 
         Integer[] temp = new Integer[arr.size()];
         for (int i = 0; i < arr.size(); i++) {
