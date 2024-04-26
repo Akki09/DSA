@@ -40,6 +40,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       2. Find 2nd Largest and 2nd Smallest without Sorting
       3. Check If Array is sorted or not
       4. Remove duplicates from Sorted array
+      5. Rotate Array by 1 place
       
 
 
