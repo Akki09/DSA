@@ -42,6 +42,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       4. Remove duplicates from Sorted array
       5. Rotate Array by 1 place 
       6. Rotate Array by D place
+      7. Move 0 to end
       
 
 
