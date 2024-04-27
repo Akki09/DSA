@@ -40,7 +40,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       2. Find 2nd Largest and 2nd Smallest without Sorting
       3. Check If Array is sorted or not
       4. Remove duplicates from Sorted array
-      5. Rotate Array by 1 place 
+      5. Rotate Array by 1 place
       6. Rotate Array by D place
       7. Move 0 to end
       8. Linear Search
@@ -50,6 +50,8 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       12. Find the number that appears once, and other numbers twice.
       13. Longest subarray with given sum K(positives)
       14. Longest subarray with sum K (Positives + Negatives)
+
+   2. **MEDIUM**
       
 
 
