@@ -52,6 +52,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       14. Longest subarray with sum K (Positives + Negatives)
 
    2. **MEDIUM**
+      1. 2Sum Problem
       
 
 
