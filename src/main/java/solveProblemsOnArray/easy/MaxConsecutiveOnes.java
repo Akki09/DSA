@@ -7,27 +7,27 @@ public class MaxConsecutiveOnes {
         System.out.println(traffic(input.length, 2, input));
     }
 
-    public static int traffic(int n, int m, int []vehicle) {
+    public static int traffic(int n, int m, int[] vehicle) {
+        int ans = 0;
+        int j = 0;
+        int flip = 0; // TO count the flip it made
 
-        int count = 0;
-        int maxConsecutive = 0;
-        for(int i = 0; i<n; i++){
-            if(vehicle[i] == 1){
-                count++;
-                if(maxConsecutive<count){
-                    maxConsecutive = count;
-                }
-            }else{
-                if(m>0){
-                    count++;
-                    if(maxConsecutive<count){
-                        maxConsecutive = count;
+        for (int i = 0; i < n; i++) {
+            if (vehicle[i] == 0) {
+                flip++;
+
+                //m is max flip is allowed
+                while (flip > m) {
+                    if (vehicle[j] == 0) {
+                        flip--;
                     }
-                    m--;
+                    j++;
                 }
-            }
 
+            }
+            ans = Math.max(ans, (i - j + 1));
         }
-        return maxConsecutive;
+
+        return ans;
     }
 }
