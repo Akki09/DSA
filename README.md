@@ -49,6 +49,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       11. Maximum Consecutive Ones
       12. Find the number that appears once, and other numbers twice.
       13. Longest subarray with given sum K(positives)
+      14. Longest subarray with sum K (Positives + Negatives)
       
 
 
