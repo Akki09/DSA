@@ -54,6 +54,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
    2. **MEDIUM**
       1. 2Sum Problem
       2. Sort an array of 0's 1's and 2's
+      3. Majority Element (>n/2 times)
       
 
 
