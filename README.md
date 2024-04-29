@@ -59,6 +59,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       5. Print subarray with maximum subarray sum (extended version of above problem)
       6. Stock Buy and Sell
       7. Rearrange the array in alternating positive and negative items
+      8. Leaders in an Array problem
       
 
 
