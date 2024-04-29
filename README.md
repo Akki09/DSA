@@ -60,8 +60,9 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       6. Stock Buy and Sell
       7. Rearrange the array in alternating positive and negative items
       8. Next Permutation
-      8. Leaders in an Array problem
-      9. Longest Consecutive Sequence in an Array
+      9. Leaders in an Array problem
+      10. Longest Consecutive Sequence in an Array
+      11. Set Matrix Zeros
       
 
 
