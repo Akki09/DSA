@@ -52,10 +52,17 @@ public class RotateMatrixBy90Degrees {
         int size = mat.length; //4
         // As for last row upper swap is not needed
         for (int i = 0; i < size - 1; i++) {
+            // J+1 is because we are considering upper triangle only
             for (int j = i + 1; j < size; j++) {
                 swap(mat, i, j);
             }
         }
+
+        //ANSWER for 90o Rotation
+        // 13  9  5  1
+        // 14 10  6  2
+        // 15 11  7  3
+        // 16 12  8  4
 
         //Step 2. Reverse each rows and TADAAA you are done.
         for (int row = 0; row < mat.length; row++) {
