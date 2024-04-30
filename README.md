@@ -67,7 +67,8 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       
    3. **HARD**
       1. Majority Element (n/3 times)
-      2. 3-Sum Problem
+      2. 3-Sum Problem 
+      3. 4-Sum Problem
       
 
 
