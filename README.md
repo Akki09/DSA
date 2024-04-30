@@ -65,5 +65,8 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       11. Set Matrix Zeros
       12. Rotate Matrix by 90 degrees
       
+   3. **HARD**
+      1. Majority Element (n/3 times)
+      
 
 
