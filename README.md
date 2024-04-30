@@ -64,6 +64,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       10. Longest Consecutive Sequence in an Array
       11. Set Matrix Zeros
       12. Rotate Matrix by 90 degrees
+      13. Count subarrays with given sum
       
 
 
