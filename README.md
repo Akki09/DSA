@@ -72,6 +72,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       3. 4-Sum Problem
       4. Largest Subarray with 0 Sum
       5. Count number of subarrays with given xor K
+      6. Merge two sorted arrays without extra space
       
 
 
