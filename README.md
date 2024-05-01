@@ -75,6 +75,7 @@ This Repository I am creating to Learn and Practice the DSA algorithms
       6. Merge two sorted arrays without extra space
       7. Find the repeating and missing number
       8. Count Inversions
+      9. Reverse Pairs
       
 
 

@@ -2,19 +2,16 @@ package solveProblemsOnArray.hard;
 
 import java.util.ArrayList;
 
-public class CountInversions {
-
-
+public class ReversePairs {
     public static void main(String[] args) {
+        int[] input = new int[]{4, 1, 2, 3, 1};
+        System.out.println(team(input, input.length));
 
-        int[] input = new int[]{4, 3, 2, 1};
-        //System.out.println(numberOfInversions(input, input.length));
-        System.out.println(numberOfInversions(input, input.length));
-    }
-    public static int numberOfInversions(int[] a, int n) {
-        return sortThis(a, 0, n - 1);
     }
 
+    public static int team(int[] skill, int n) {
+        return sortThis(skill, 0, n - 1);
+    }
 
     // Optimal approach using the mergeSort TC: O(NLogN) and SC: O(N) (TempArray)
     private static int sortThis(int[] input, int startIndex, int endIndex) {
@@ -41,7 +38,16 @@ public class CountInversions {
                 list.add(input[leftPointer]);
                 leftPointer++;
             } else {
-                count += (mid - leftPointer + 1);
+                //For this question condition will change
+                int tempPointer = leftPointer;
+                while (tempPointer <= mid && !(input[tempPointer] > (2 * input[rightPointer]))) {
+                    tempPointer++;
+                }
+                if (input[tempPointer] > (2 * input[rightPointer])) {
+                    count += (mid - tempPointer + 1);
+                }
+
+                // Existing Merge code
                 list.add(input[rightPointer]);
                 rightPointer++;
             }
@@ -69,13 +75,13 @@ public class CountInversions {
         return count;
     }
 
-    // Bruteforce Approach TC: O(N2) and SC: O(1)
-//    public static int numberOfInversions(int[] a, int n) {
+    //Bruteforce Approach TC: O(N2) SC:O(1)
+//    public static int team(int[] skill, int n) {
 //        // Write your code here.
 //        int count = 0;
 //        for (int i = 0; i < n; i++) {
 //            for (int j = i + 1; j < n; j++) {
-//                if (a[i] > a[j]) {
+//                if (skill[i] > (2 * skill[j])) {
 //                    count++;
 //                }
 //            }
